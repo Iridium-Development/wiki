@@ -2,13 +2,11 @@
 title: Schematics
 description: This page goes over how to use schematics with the plugin.
 published: true
-date: 2024-03-04T17:19:09.431Z
+date: 2024-03-04T17:22:15.027Z
 tags: 
 editor: markdown
 dateCreated: 2024-02-27T19:05:10.703Z
 ---
-
-# Schematics
 
 You may have heard the term "schematics" when talking about blueprints or floorplans, and the same sort of idea applies here. Schematics are files that save blocks (and occassionally entities) arranged in a specific way so that they can be loaded later.
 
@@ -16,7 +14,7 @@ Our `desert.schem` schematic, for example, is a schematic file that has the dese
 
 <p> &nbsp </p>
 
-## Main Config Options
+# Main Config Options
 
 - *name*: ^[String]^ The Island type, will be used with the `/is regen` command (i.e. desert: `/is regen desert`)
 	- *item*: ^[Object]^ See our [Inventories](https://docs.iridiumdevelopment.net/en/Inventory) for more details.
@@ -26,7 +24,7 @@ Our `desert.schem` schematic, for example, is a schematic file that has the dese
 
 <p> &nbsp </p>
 
-## Offsets
+# Offsets
 
 Every island has a different location, and each schematic in the config has a set of coordinates that the player will spawn at. However, these coordinates are NOT EXACT. They are offsets, meaning that they are adjustment values.
 
@@ -52,7 +50,7 @@ With this configuration, the player will spawn 3 blocks to the east (+ x), 1.5 b
 
 <p> &nbsp </p>
 
-### Full Configuration Breakdown
+## Full Configuration Breakdown
 
 <details>
   <summary> View </summary>
@@ -92,7 +90,7 @@ desert:
 
   <p> &nbsp </p>
   
-## Using Custom Schematics
+# Using Custom Schematics
 
 Importing your WorldEdit schematics to IridiumSkyblock is as easy as copying the schematic and pasting it in the plugin's schematics folder: ``/plugins/IridiumSkyblock/schematics``, then updating your ``schematics.yml`` file by specifying the schematic's file name under ``schematicID``.
 
@@ -160,7 +158,7 @@ save your schematics as `.schem` files, or the plugin will not load them.
   
 <p> &nbsp </p>
   
-## Using World Edit
+# Using World Edit
 You can change how the plugin handles pasting your islands using a third party plugin like World Edit or FAWE, if you have them installed. By default, the paste system is set to use our internal, async one.
   
 You can change which paste system the plugin is using by changing `paster: "worldedit"` in `configuration.yml`. See our [General Settings](https://docs.iridiumdevelopment.net/en/Server-Settings) page for more details.
