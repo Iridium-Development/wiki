@@ -2,17 +2,13 @@
 title: Schematics
 description: This page goes over how to use schematics with the plugin.
 published: true
-date: 2024-03-04T17:17:31.396Z
+date: 2024-03-04T17:18:00.015Z
 tags: 
 editor: markdown
 dateCreated: 2024-02-27T19:05:10.703Z
 ---
 
 # Schematics
-
-This page details the configuration file `schematics.yml`, providing context as to how to edit it properly and providing the default configuration file for the plugin.
-
----
 
 You may have heard the term "schematics" when talking about blueprints or floorplans, and the same sort of idea applies here. Schematics are files that save blocks (and occassionally entities) arranged in a specific way so that they can be loaded later.
 
