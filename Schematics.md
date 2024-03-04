@@ -2,7 +2,7 @@
 title: Schematics
 description: This page goes over how to use schematics with the plugin.
 published: true
-date: 2024-03-04T17:18:00.015Z
+date: 2024-03-04T17:19:09.431Z
 tags: 
 editor: markdown
 dateCreated: 2024-02-27T19:05:10.703Z
@@ -41,7 +41,7 @@ x: + east / - west
 z: - north / + south
 ```
 
-With this configuration, the player will spawn 3 blocks to the east (+ x), 1.5 blocks to the north (-   z), and at y-level 75. They will also be rotated to depending on yaw. All of this information can be found in the debug menu (default: **F3**).
+With this configuration, the player will spawn 3 blocks to the east (+ x), 1.5 blocks to the north (-   z), and at y-level 75. They will also be rotated depending on yaw. All of this information can be found in the debug menu (default: **F3**).
 
 ---
 
