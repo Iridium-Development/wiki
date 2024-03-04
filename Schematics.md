@@ -2,7 +2,7 @@
 title: Schematics
 description: This page goes over how to use schematics with the plugin.
 published: true
-date: 2024-03-04T17:22:15.027Z
+date: 2024-03-04T17:22:42.211Z
 tags: 
 editor: markdown
 dateCreated: 2024-02-27T19:05:10.703Z
@@ -50,7 +50,7 @@ With this configuration, the player will spawn 3 blocks to the east (+ x), 1.5 b
 
 <p> &nbsp </p>
 
-## Full Configuration Breakdown
+# Full Configuration Breakdown
 
 <details>
   <summary> View </summary>
