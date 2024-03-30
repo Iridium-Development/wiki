@@ -2,7 +2,7 @@
 title: Placeholders
 description: A list of all of IridiumSkyblock's placeholders.
 published: true
-date: 2024-03-30T20:23:28.838Z
+date: 2024-03-30T20:29:59.306Z
 tags: 
 editor: markdown
 dateCreated: 2024-02-27T19:05:07.463Z
