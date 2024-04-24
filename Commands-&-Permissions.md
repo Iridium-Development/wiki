@@ -2,10 +2,10 @@
 title: Commands & Permissions
 description: This page details how to configure the commands provided with the plugin, including their associated permissions.
 published: true
-date: 2023-09-29T16:46:27.427Z
+date: 2024-04-24T20:14:52.859Z
 tags: 
-editor: undefined
-dateCreated: 2023-08-06T23:26:27.431Z
+editor: markdown
+dateCreated: 2024-02-27T19:04:22.997Z
 ---
 
 > Iridium Development does not condone the usage of permissions for locking features or content behind paywalls, premium ranks, or predatory behavior (Pay To Win, or P2W). Please make sure that your server is in compliance with both the [Minecraft EULA](https://www.minecraft.net/en-us/eula) and the [Minecraft Usage Guidelines](https://www.minecraft.net/en-us/usage-guidelines), in which your server is specifically eligible for (regardless of the server software you use): 
@@ -161,6 +161,7 @@ This command will give the specified player the `iridiumskyblock.bypass` permiss
 |Command|Shortcut|Description|Permission Required|Syntax|
 |-------|--------|-----------|-------------------|------|
 |bank   |...|Brings up the island bank.|`iridiumskyblock.bank.modify`|`/is bank`|
+|bypass |...|Allows a player to bypass island restrictions.|`iridiumskyblock.bypass`|`/is bypass`|
 |delete|...|Deletes a player's island (Brings up a confirmation screen).|`iridiumskyblock.delete.others`|`/is delete <ISLAND>`|
 |description|...|Changes the description of a player's island.|`iridiumskyblock.description.others`|`/is description <ISLAND> <DESCRIPTION>`|
 |experience|...|Changes the amount of experience the current island has.|`iridiumskyblock.experience.modify`|`/is experience <GIVE/SET/REMOVE> <PLAYER> <AMOUNT>`|
