@@ -2,10 +2,10 @@
 title: API
 description: Documentation on the API and repo.
 published: true
-date: 2023-12-19T16:08:27.624Z
+date: 2024-06-23T13:24:34.963Z
 tags: 
 editor: markdown
-dateCreated: 2023-08-07T19:45:11.955Z
+dateCreated: 2024-02-27T19:04:15.181Z
 ---
 
 # Repo
@@ -82,11 +82,10 @@ public Optional<Island> getPlayerIsland(Player player) {
  
 ## How do I get the Island the Player is currently standing on?
 
-First get the User object using the following code.
-And then you can retrieve an Optional Island from the user object
+This will get the location specified in the second argument, however it will also use the island the player is standing on as cache. This is useful for getting Islands near a player, e.g. when they break a block right click a block ect, since 99% of the time this will be in the island they player is standing on. (and if it isnt it will do a regular lookup) This method is prefered since it is quicker and causes less lag
 ```java
 public Optional<Island> getPlayerIsland(Player player) {
-    User user = IridiumSkyblockAPI.getInstance().getUser(player);
+    User user = IridiumSkyblock.getInstance().getIslandManager().getTeamViaPlayerLocation(player, player.getLocation());
     Optional<Island> island = user.getCurrentIsland();
     return island;
 }
